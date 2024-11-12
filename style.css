@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
+/* Styling Nav Bar */
 nav{
-    background-color: red;
+    /* background-color: red; */
     height: 60px;
     margin: 0px 50px;
 }
 .link{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 100%;
     height: 50px;
     font-size: 20pt;
@@ -17,7 +20,7 @@ nav{
     justify-content: end;
 }
 .link-logo{
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     height: 60px;
     display: flex;
@@ -25,15 +28,53 @@ nav{
     align-items: center;
 }
 .logo{
-    background-color: blue;
+    /* background-color: blue; */
     width: 60px;
     height: 60px;
     margin: 5px;
 }
 a{
     text-decoration: none;
-    color: blue;
+    /* color: blue; */
     padding: 5px;
-    background-color: red;
+    /* background-color: red; */
     align-self: center;
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+.content{
+    background-color: aqua;
+    margin: 5px 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.content p{
+    background-color: blue;
+    width: 300px;
+    margin: 10px ;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+.bio img{
+    background-color: brown;
+    width: 150px;
+    height: 200px;
+    margin: 10px 0px 0px 10px;
+}
+.bio p{
+    background-color: green;
+    width: 150px;
+    height: 300px;
+    margin: 10px;
+}
+.project{
+    background-color: aquamarine;
+    width: 470px;
+    height: 100px;
+    margin: 5px 50px;
 }
