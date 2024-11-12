@@ -51,6 +51,11 @@ a{
     display: flex;
     flex-direction: row;
 }
+.content p{
+    background-color: blue;
+    width: 300px;
+    margin: 10px ;
+}
 .bio{
     display: flex;
     flex-direction: column;
@@ -67,8 +72,9 @@ a{
     height: 300px;
     margin: 10px;
 }
-p{
-    background-color: blue;
-    width: 300px;
-    margin: 10px ;
+.project{
+    background-color: aquamarine;
+    width: 470px;
+    height: 100px;
+    margin: 5px 50px;
 }
