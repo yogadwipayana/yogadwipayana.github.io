@@ -99,13 +99,17 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 .list {
     width: 60%;
-    float: left;
+    /* float: top !important; */
+    position: absolute;
+    top: -60px;
+    left: 130px;
 }
 .nav .list ul {
-    width: 50%;
+    width: 40%;
     float: left;
     margin: 0;
     text-align: left;
@@ -121,12 +125,15 @@ body {
 .other, .network {
     width: 20%;
     float: left;
-    text-align: left;
+    text-align: center;
     color: #fff;
     letter-spacing: 2px;
     line-height: 60px;
     font-size: large;
     font-weight: 500;
+    position: absolute;
+    top: -60px;
+    right: 230px;
 }
 .network {
     text-align: right;
