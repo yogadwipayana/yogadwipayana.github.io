@@ -84,7 +84,7 @@ nav .navbar a {
     width: 180px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: url(Asset/profile.JPG);
+    background-image: url(/Asset/profile.JPG);
     background-size: cover;
     background-position: center center;
     margin-bottom: 20px;
