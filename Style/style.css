@@ -169,7 +169,7 @@ nav .navbar a {
 }
 
 /* Posisi manual (bisa dihilangkan jika hanya ingin default urutan 2x2) */
-.projectContainer .box > div:nth-child(1) {
+/* .projectContainer .box > div:nth-child(1) {
     background-color: #0078D6;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -188,7 +188,7 @@ nav .navbar a {
     background-color: #0078D6;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-}
+} */
 
 @media (max-width: 440px) {
     .projectContainer .box {
